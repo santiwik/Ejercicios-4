@@ -1,0 +1,31 @@
+https://github.com/santiwik/Ejercicios-4
+Ejercicios (4) Daniel Santiso Candel
+
+1. Ejercicio 1 
+	1. Se crea en la web
+	2. git remote add https://github.com/santiwik/Ejercicios-4
+	3. git remote -v 
+
+2. Ejercicio 2
+	1. git push
+	2. Se veria en la web, https://github.com/santiwik/Ejercicios-4/commits/main/
+
+3. Ejercicio 3
+	se necesita alguien por lo tanto no puedo hacerlo, sin embargo los comandos serian asi:
+	1. El usuario a traves de su cuenta se deberá mandarte un link para que seas colaborador
+	2. git clone url-del-colaborador
+	3. echo "Usuario de colaborador" "email de colaborador" > autores.txt
+	4. git add autores.txt
+	5. git commit -m "Añadido autor."
+	6. git push origin main
+
+4. Ejercicio 4
+	se necesita alguien por lo tanto no puedo hacerlo, sin embargo los comandos serian asi:
+	1. El colaborador deberia hacerte un fork
+	2. git clone url de la otra persona
+	3. git branch autoria
+	   git checkout autoria 
+	4. echo "Usuario de colaborador" "email de colaborador" > autores.txt
+	5. git add autores.txt
+	6. git commit -m "Añadido nuevo autor."
+	7 y 8 Se harian desde la web, se deberia hacer un pull request y despues completar la solicitud de ese mismo pull
